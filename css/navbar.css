@@ -1,0 +1,58 @@
+/* Navbar container and divider*/
+
+.main-navbar {
+	position: fixed;
+	background-color: #181a1b;
+	width: 100%;
+}
+
+.inner-navbar {
+	margin-left: 170px;
+	margin-right: 170px;
+}
+
+
+
+/* Navbar navigation links */
+
+.navbar-buttons {
+	display: inline-block;
+	float: right;
+}
+
+.navbar-buttons ul {
+	margin: 0;
+	padding: 25px 45px 0 0;
+	list-style-type: none;
+}
+
+.navbar-buttons li {
+	margin-left: 15px;
+	display: inline-block;
+}
+
+.navbar-button {
+	font-family: Roboto;
+	font-size: 15px;
+	color: #9f968a;
+	text-decoration: none;
+}
+
+.navbar-button.active{
+	color: #4fffe7;
+}
+
+
+
+/* Logo Section */
+
+.site-logo {
+	height: 33px;
+	width: 268px;
+}
+
+.site-logo-h1 {
+	display: inline-block;
+	margin: 0; 
+	padding: 15px 0 15px 17px;
+}
