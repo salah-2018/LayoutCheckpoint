@@ -50,6 +50,40 @@
 }
 
 
+/* dropdown menu */
+
+#dropdown:hover + .dropdown-list{
+  display: block;
+}
+
+.dropdown-list {
+	margin-top: -3px;
+	margin-left: -105px;
+	display: none;
+	position: absolute;
+	background-color: #181818;
+	padding: 10px 0 10px 0;
+	min-width: 200px;
+	z-index: 3;
+}
+
+.dropdown-list:hover {
+	display: block;
+	cursor: pointer;
+}
+
+.dropdown-list a{
+  	padding: 10px 25px 10px 25px;
+  	text-decoration: none;
+  	color: darkgrey;
+  	display: block;
+}
+
+.dropdown-list a:hover {
+	background-color: #252525;
+	color: #4fffe7;
+}
+
 
 /* Logo Section */
 
