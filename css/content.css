@@ -329,3 +329,36 @@ button {
 }
 
 /* offices section end */
+
+
+/* footer section start */
+
+.seeall-button {
+    position: relative;
+    left: 150px;
+}
+
+.ftr-container {
+    border-top: 1px solid #313131;
+}
+
+.ftr-leaders {
+    padding-top: 35px;
+    text-align: center;
+    font-size: 12px;
+    color: #808080;
+}
+
+
+.ftr-leaders a {
+    text-decoration: none;
+}
+
+.ftr-policy {
+    text-align: center;
+    font-size: 12px;
+    color: #808080;
+}
+
+
+/* footer section end */
